@@ -1,0 +1,81 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  height: 100vh;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .card-container {
+    width: 100%;
+    padding: 15px;
+  }
+}
+.heading {
+  color: #a35200;
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 25px;
+  padding-top: 18px;
+}
+.heading-des {
+  color: #334155;
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 0;
+}
+.image {
+  width: 175px;
+  height: 165px;
+}
+.button {
+  background-color: #f9d423;
+  color: #a35200;
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  width: 100px;
+  height: 34px;
+  border-radius: 5px;
+  margin-top: 20px;
+  align-self: center;
+  cursor: pointer;
+}
+.count-container {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+
+@media screen and (max-width: 768px) {
+  .count-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.count {
+  color: #475569;
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 16px;
+  padding-right: 13px;
+  padding-left: 13px;
+}
